@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
 import { skillCategories } from '../data/portfolioData';
-import { 
-  Zap, 
-  Activity, 
-  Code2, 
-  CheckSquare, 
-  FolderKanban, 
-  Database, 
-  CheckCircle2
-} from 'lucide-react';
 
 export const Skills: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('All');
@@ -27,30 +18,6 @@ export const Skills: React.FC = () => {
   const filteredSkills = activeCategory === 'All'
     ? allSkills
     : allSkills.filter((s) => s.category === activeCategory);
-
-  const getSkillIcon = (skillName: string, category: string) => {
-    if (skillName.includes('LoadRunner') || skillName.includes('VuGen') || skillName.includes('Controller')) {
-      return <Zap className="w-5 h-5" />;
-    }
-    if (skillName.includes('Dynatrace') || skillName.includes('Tracing') || skillName.includes('Metrics')) {
-      return <Activity className="w-5 h-5" />;
-    }
-    if (skillName.includes('Cypress') || skillName.includes('Katalon') || skillName.includes('Automation') || skillName.includes('JavaScript')) {
-      return <Code2 className="w-5 h-5" />;
-    }
-    if (skillName.includes('SQL') || skillName.includes('MySQL') || skillName.includes('Navicat') || skillName.includes('Database')) {
-      return <Database className="w-5 h-5" />;
-    }
-    if (skillName.includes('Postman') || skillName.includes('Qase') || skillName.includes('Jira') || skillName.includes('Git')) {
-      return <FolderKanban className="w-5 h-5" />;
-    }
-    if (skillName.includes('Test Case') || skillName.includes('Functional') || skillName.includes('Defect')) {
-      return <CheckSquare className="w-5 h-5" />;
-    }
-    if (category === 'Performance Testing') return <Zap className="w-5 h-5" />;
-    if (category === 'Monitoring & APM') return <Activity className="w-5 h-5" />;
-    return <CheckCircle2 className="w-5 h-5" />;
-  };
 
   return (
     <section id="skills" className="section-padding relative">
@@ -88,12 +55,12 @@ export const Skills: React.FC = () => {
           })}
         </div>
 
-        {/* Skills Cards Grid (Davin Reference Style) */}
+        {/* Skills Cards Grid (Reference Style) */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {filteredSkills.map((skill, idx) => (
             <div
               key={`${skill.name}-${idx}`}
-              className="group relative flex flex-col items-center gap-3 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-6 text-center transition-colors duration-300 hover:border-primary/50 hover:shadow-glow"
+              className="group relative flex flex-col items-center justify-center gap-3 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] px-4 py-6 text-center transition-all duration-300 hover:border-primary/50 hover:shadow-glow"
             >
               {/* Radial Glow on hover */}
               <span
@@ -104,25 +71,27 @@ export const Skills: React.FC = () => {
                 }}
               />
 
-              {/* Icon Container */}
-              <span className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-primary/15 text-primary transition-transform duration-300 group-hover:scale-110">
-                {getSkillIcon(skill.name, skill.category)}
-              </span>
+              {/* Official Logo Container at the Top */}
+              <div className="relative flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl border border-white/[0.08] bg-white/[0.04] p-2.5 transition-all duration-300 group-hover:scale-110 group-hover:border-primary/40 group-hover:bg-white/[0.07]">
+                {skill.icon && (
+                  <img
+                    src={skill.icon}
+                    alt={`${skill.name} logo`}
+                    loading="lazy"
+                    className="h-9 w-9 sm:h-10 sm:w-10 object-contain select-none"
+                  />
+                )}
+              </div>
 
-              {/* Skill Name */}
-              <span className="relative text-xs font-medium text-white sm:text-sm">
+              {/* Tool or Technology Name Underneath */}
+              <span className="relative text-xs font-semibold text-white sm:text-sm leading-snug">
                 {skill.name}
               </span>
 
-              {/* Sub-tag / Level */}
-              <div className="flex items-center gap-1.5 relative">
-                <span className="text-[10px] uppercase tracking-wider text-text-secondary">
-                  {skill.category}
-                </span>
-                <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-white/[0.05] text-primary/90 border border-white/10">
-                  {skill.level}
-                </span>
-              </div>
+              {/* Existing Category Label Below the Name */}
+              <span className="relative text-[10px] uppercase tracking-wider text-text-secondary">
+                {skill.category}
+              </span>
             </div>
           ))}
         </div>
