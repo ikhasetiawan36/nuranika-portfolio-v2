@@ -19,7 +19,7 @@ export const personalInfo = {
   whatsappUrl: "https://wa.me/6281280989475",
   linkedinUrl: "https://www.linkedin.com/in/nuranikaramadhanti/",
   githubUrl: "https://github.com/ikhasetiawan36",
-  resumeUrl: "https://drive.google.com/file/d/1gXX1_CbzvfXg-dxy7fXQvvAzFu7Er1yy/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1Rp_9hyZdaDqJptECHXuKx2zxG7sK5DUZ/view?usp=sharing",
   stats: [
     { label: "Performance Tests Executed", value: "100+" },
     { label: "Critical Transactions Tested", value: "50+" },
