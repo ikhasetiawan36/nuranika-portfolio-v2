@@ -133,14 +133,14 @@ export const skillCategories: SkillCategory[] = [
     iconName: "Zap",
     description: "Enterprise load simulation, concurrency validation, and transaction throughput engineering.",
     skills: [
-      { name: "LoadRunner", level: "Advanced", isPrimary: true },
-      { name: "VuGen (Virtual User Generator)", level: "Advanced", isPrimary: true },
-      { name: "Controller", level: "Advanced", isPrimary: true },
-      { name: "LoadRunner Analysis", level: "Advanced", isPrimary: true },
-      { name: "LoadRunner Enterprise", level: "Proficient", isPrimary: true },
-      { name: "Correlation & Parameterization", level: "Advanced", isPrimary: true },
-      { name: "Load & Stress Testing", level: "Advanced", isPrimary: true },
-      { name: "Sanity & Baseline Testing", level: "Advanced", isPrimary: true }
+      { name: "LoadRunner", level: "Advanced", isPrimary: true, icon: "/assets/logos/loadrunner.svg" },
+      { name: "VuGen (Virtual User Generator)", level: "Advanced", isPrimary: true, icon: "/assets/logos/vugen.svg" },
+      { name: "Controller", level: "Advanced", isPrimary: true, icon: "/assets/logos/controller.svg" },
+      { name: "LoadRunner Analysis", level: "Advanced", isPrimary: true, icon: "/assets/logos/lr-analysis.svg" },
+      { name: "LoadRunner Enterprise", level: "Proficient", isPrimary: true, icon: "/assets/logos/lr-enterprise.svg" },
+      { name: "Correlation & Parameterization", level: "Advanced", isPrimary: true, icon: "/assets/logos/correlation.svg" },
+      { name: "Load & Stress Testing", level: "Advanced", isPrimary: true, icon: "/assets/logos/load-stress.svg" },
+      { name: "Sanity & Baseline Testing", level: "Advanced", isPrimary: true, icon: "/assets/logos/sanity-baseline.svg" }
     ]
   },
   {
@@ -148,10 +148,10 @@ export const skillCategories: SkillCategory[] = [
     iconName: "Activity",
     description: "Full-stack observability, transaction tracing, and performance diagnostics.",
     skills: [
-      { name: "Dynatrace APM", level: "Proficient", isPrimary: true },
-      { name: "Server Metrics Analysis", level: "Proficient" },
-      { name: "Transaction Tracing", level: "Proficient" },
-      { name: "Bottleneck Diagnostics", level: "Proficient" }
+      { name: "Dynatrace APM", level: "Proficient", isPrimary: true, icon: "/assets/logos/dynatrace.svg" },
+      { name: "Server Metrics Analysis", level: "Proficient", icon: "/assets/logos/server-metrics.svg" },
+      { name: "Transaction Tracing", level: "Proficient", icon: "/assets/logos/transaction-tracing.svg" },
+      { name: "Bottleneck Diagnostics", level: "Proficient", icon: "/assets/logos/bottleneck-diagnostics.svg" }
     ]
   },
   {
@@ -159,11 +159,11 @@ export const skillCategories: SkillCategory[] = [
     iconName: "Code2",
     description: "Automated end-to-end web testing, API automation, and continuous quality regression suites.",
     skills: [
-      { name: "Katalon Studio", level: "Advanced", isPrimary: true },
-      { name: "Cypress", level: "Proficient", isPrimary: true },
-      { name: "JavaScript / TypeScript", level: "Proficient" },
-      { name: "UI Test Automation", level: "Proficient" },
-      { name: "Assertions & Selectors", level: "Proficient" }
+      { name: "Katalon Studio", level: "Advanced", isPrimary: true, icon: "/assets/logos/katalon.svg" },
+      { name: "Cypress", level: "Proficient", isPrimary: true, icon: "/assets/logos/cypress.svg" },
+      { name: "JavaScript / TypeScript", level: "Proficient", icon: "/assets/logos/js-ts.svg" },
+      { name: "UI Test Automation", level: "Proficient", icon: "/assets/logos/ui-automation.svg" },
+      { name: "Assertions & Selectors", level: "Proficient", icon: "/assets/logos/assertions-selectors.svg" }
     ]
   },
   {
@@ -171,13 +171,13 @@ export const skillCategories: SkillCategory[] = [
     iconName: "CheckSquare",
     description: "Rigorous quality processes ensuring requirement compliance, defect management, and tracking.",
     skills: [
-      { name: "Functional Testing", level: "Advanced", isPrimary: true },
-      { name: "Test Case Design", level: "Advanced", isPrimary: true },
-      { name: "Test Execution & Reporting", level: "Advanced", isPrimary: true },
-      { name: "Defect & Bug Reporting", level: "Advanced", isPrimary: true },
-      { name: "Jira", level: "Advanced", isPrimary: true },
-      { name: "SDLC & STLC", level: "Advanced", isPrimary: true },
-      { name: "Agile / Scrum Methodologies", level: "Advanced" }
+      { name: "Functional Testing", level: "Advanced", isPrimary: true, icon: "/assets/logos/functional-testing.svg" },
+      { name: "Test Case Design", level: "Advanced", isPrimary: true, icon: "/assets/logos/test-case-design.svg" },
+      { name: "Test Execution & Reporting", level: "Advanced", isPrimary: true, icon: "/assets/logos/test-execution.svg" },
+      { name: "Defect & Bug Reporting", level: "Advanced", isPrimary: true, icon: "/assets/logos/defect-reporting.svg" },
+      { name: "Jira", level: "Advanced", isPrimary: true, icon: "/assets/logos/jira.svg" },
+      { name: "SDLC & STLC", level: "Advanced", isPrimary: true, icon: "/assets/logos/sdlc-stlc.svg" },
+      { name: "Agile / Scrum Methodologies", level: "Advanced", icon: "/assets/logos/agile-scrum.svg" }
     ]
   },
   {
@@ -185,10 +185,10 @@ export const skillCategories: SkillCategory[] = [
     iconName: "FolderKanban",
     description: "Structured test documentation, defect tracking, and collaborative delivery tools.",
     skills: [
-      { name: "Qase.io", level: "Proficient", isPrimary: true },
-      { name: "Postman (API Testing)", level: "Proficient", isPrimary: true },
-      { name: "Git & GitHub", level: "Proficient" },
-      { name: "Figma (Design Verification)", level: "Familiar" }
+      { name: "Qase.io", level: "Proficient", isPrimary: true, icon: "/assets/logos/qase.svg" },
+      { name: "Postman (API Testing)", level: "Proficient", isPrimary: true, icon: "/assets/logos/postman.svg" },
+      { name: "Git & GitHub", level: "Proficient", icon: "/assets/logos/git-github.svg" },
+      { name: "Figma (Design Verification)", level: "Familiar", icon: "/assets/logos/figma.svg" }
     ]
   },
   {
@@ -196,10 +196,10 @@ export const skillCategories: SkillCategory[] = [
     iconName: "Database",
     description: "Data verification, back-end querying, database client tools, and foundational tech.",
     skills: [
-      { name: "Navicat", level: "Proficient", isPrimary: true },
-      { name: "SQL (MySQL)", level: "Proficient", isPrimary: true },
-      { name: "Java Basics", level: "Familiar" },
-      { name: "HTML / CSS", level: "Proficient" }
+      { name: "Navicat", level: "Proficient", isPrimary: true, icon: "/assets/logos/navicat.svg" },
+      { name: "SQL (MySQL)", level: "Proficient", isPrimary: true, icon: "/assets/logos/mysql.svg" },
+      { name: "Java Basics", level: "Familiar", icon: "/assets/logos/java.svg" },
+      { name: "HTML / CSS", level: "Proficient", icon: "/assets/logos/html-css.svg" }
     ]
   }
 ];
