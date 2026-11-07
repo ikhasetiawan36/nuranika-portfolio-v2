@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="sdlc-grad" x1="6" y1="20" x2="58" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#FF4D9D"/>
+    </linearGradient>
+  </defs>
+  <!-- Infinity Loop representing Continuous SDLC & STLC -->
+  <path d="M20 22 C13 22 8 26.5 8 32 C8 37.5 13 42 20 42 C27 42 37 22 44 22 C51 22 56 26.5 56 32 C56 37.5 51 42 44 42 C37 42 27 22 20 22 Z" stroke="url(#sdlc-grad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Direction Arrows -->
+  <path d="M18 18 L22 22 L18 26" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 38 L42 42 L46 46" stroke="#FF4D9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

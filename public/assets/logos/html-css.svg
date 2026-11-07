@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official HTML5 (#E34F26) & CSS3 (#1572B6) Dual Shields -->
+  <!-- HTML5 Shield (Left) -->
+  <path d="M7 10 H33 L30.5 39 L20 42 L9.5 39 L7 10 Z" fill="#E34F26"/>
+  <path d="M20 12.5 H30.2 L28.2 36.8 L20 39.2 V12.5 Z" fill="#EF652A"/>
+  <path d="M13 18 H27 L26.6 22 H17 L17.3 26 H26.2 L25.5 34 L20 35.6 L14.5 34 L14.2 30 H18 L18.2 31.8 L20 32.3 L21.8 31.8 L22.1 29 H14.1 L13 18 Z" fill="#FFFFFF"/>
+
+  <!-- CSS3 Shield (Right) -->
+  <path d="M31 22 H57 L54.5 51 L44 54 L33.5 51 L31 22 Z" fill="#1572B6" stroke="#050816" stroke-width="1.5"/>
+  <path d="M44 24.5 H54.2 L52.2 48.8 L44 51.2 V24.5 Z" fill="#33A9DC"/>
+  <path d="M37 30 H51 L50.3 38 H40.5 L40.8 41.5 H49.9 L49.2 46.5 L44 48 L38.8 46.5 L38.5 43 H42.2 L42.4 44.5 L44 45 L45.6 44.5 L45.9 41.5 H38 L37 30 Z" fill="#FFFFFF"/>
+</svg>

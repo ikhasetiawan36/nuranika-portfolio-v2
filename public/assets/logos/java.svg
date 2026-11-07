@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official Java Coffee Cup & Steam Logo (#5382A1 & #E76F00) -->
+  <!-- Steam Flames -->
+  <path d="M30 10 C34 15 24 20 28 26 C25 22 35 17 30 10 Z" fill="#E76F00" stroke="#E76F00" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M38 14 C41 18 33 22 36 27 C34 23 42 19 38 14 Z" fill="#E76F00" stroke="#E76F00" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Cup Waves & Handle -->
+  <path d="M18 33 C25 36 39 36 44 33" stroke="#5382A1" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M20 40 C26 43 38 43 43 40" stroke="#5382A1" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M44 32 C49 32 51 35 49 38 C47.5 40 44.5 40 43 39" stroke="#5382A1" stroke-width="2.8" stroke-linecap="round"/>
+  <!-- Saucer -->
+  <path d="M14 47 C24 51 40 51 50 47" stroke="#E76F00" stroke-width="3.2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official Agile / Scrum Sprint Loop Emblem -->
+  <path d="M18 44 A16 16 0 1 1 43 37" stroke="#00E5FF" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M38 38 L45 38 L45 31" stroke="#00E5FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Sprint Delivery Forward Arrow -->
+  <path d="M10 46 H50" stroke="#6C63FF" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M44 40 L52 46 L44 52" stroke="#6C63FF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Distributed Trace Waterfall Spans & Nodes -->
+  <rect x="10" y="14" width="36" height="6" rx="3" fill="#1496FF"/>
+  <rect x="18" y="25" width="32" height="6" rx="3" fill="#73BE28"/>
+  <rect x="26" y="36" width="28" height="6" rx="3" fill="#A855F7"/>
+  <rect x="20" y="47" width="24" height="6" rx="3" fill="#00E5FF"/>
+  <!-- Connecting Trace Tree Line -->
+  <path d="M14 20 V50 H20" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 28 H18" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 39 H26" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+</svg>

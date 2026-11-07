@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official Dynatrace 4-color folded cube emblem -->
+  <path d="M32 7 L54 19.5 V32 L32 19.5 Z" fill="#73BE28"/>
+  <path d="M32 7 L10 19.5 V32 L32 19.5 Z" fill="#B4E600"/>
+  <path d="M54 19.5 L54 44.5 L32 57 V44.5 L43 38.25 V25.75 Z" fill="#1496FF"/>
+  <path d="M10 19.5 V44.5 L32 57 V44.5 L21 38.25 V25.75 Z" fill="#6F2DA8"/>
+  <path d="M32 19.5 L43 25.75 V38.25 L32 44.5 L21 38.25 V25.75 Z" fill="#00B9FF" fill-opacity="0.25"/>
+</svg>

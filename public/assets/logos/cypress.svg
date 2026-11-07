@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official Cypress.io Brand Emblem -->
+  <circle cx="32" cy="32" r="25" fill="#1B1E2E" stroke="#69D3A7" stroke-width="3.5"/>
+  <path d="M49.5 18 A22 22 0 1 0 52 41" stroke="#69D3A7" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- "cy" Mark -->
+  <path d="M27.5 26.5 C25.5 24.8 22 25 20 27.5 C18 30 18.2 34.5 20.5 36.5 C22.8 38.5 26 38 27.8 36" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M33 25.5 L38 36.5 L43.5 25.5" stroke="#69D3A7" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 36.5 L35.5 43.5 C34.8 45.2 33.2 45.8 31.5 45.5" stroke="#69D3A7" stroke-width="3.2" stroke-linecap="round"/>
+</svg>

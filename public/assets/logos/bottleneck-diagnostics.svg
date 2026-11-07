@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Magnifying Glass & Performance Spike Hotspot -->
+  <circle cx="28" cy="28" r="16" fill="#FF4D9D" fill-opacity="0.12" stroke="#00E5FF" stroke-width="3"/>
+  <path d="M17 31 H23 L26 20 L30 35 L33 26 H39" stroke="#FF4D9D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="26" cy="20" r="3" fill="#FFEA00"/>
+  <line x1="40" y1="40" x2="53" y2="53" stroke="#6C63FF" stroke-width="5" stroke-linecap="round"/>
+</svg>

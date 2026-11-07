@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official JavaScript (#F7DF1E) & TypeScript (#3178C6) Badges -->
+  <!-- JS Square -->
+  <rect x="6" y="8" width="32" height="32" rx="6" fill="#F7DF1E"/>
+  <text x="22" y="34" text-anchor="middle" fill="#000000" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="16">JS</text>
+  <!-- TS Square -->
+  <rect x="26" y="24" width="32" height="32" rx="6" fill="#3178C6" stroke="#050816" stroke-width="2"/>
+  <text x="42" y="50" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="15.5">TS</text>
+</svg>

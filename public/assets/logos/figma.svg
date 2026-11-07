@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official Figma 5-Petal Logo -->
+  <!-- Top Left: Red-Orange -->
+  <path d="M23.5 8 H32 V24 H23.5 C19.1 24 15.5 20.4 15.5 16 C15.5 11.6 19.1 8 23.5 8 Z" fill="#F24E1E"/>
+  <!-- Top Right: Coral -->
+  <path d="M32 8 H40.5 C44.9 8 48.5 11.6 48.5 16 C48.5 20.4 44.9 24 40.5 24 H32 V8 Z" fill="#FF7262"/>
+  <!-- Middle Left: Purple -->
+  <path d="M23.5 24 H32 V40 H23.5 C19.1 40 15.5 36.4 15.5 32 C15.5 27.6 19.1 24 23.5 24 Z" fill="#A259FF"/>
+  <!-- Middle Right: Cyan Circle -->
+  <circle cx="40.5" cy="32" r="8" fill="#1ABCFE"/>
+  <!-- Bottom Left: Green Drop -->
+  <path d="M23.5 40 H32 V48 C32 52.4 28.4 56 24 56 C19.3 56 15.5 52.4 15.5 48 C15.5 43.6 19.1 40 23.5 40 Z" fill="#0ACF83"/>
+</svg>

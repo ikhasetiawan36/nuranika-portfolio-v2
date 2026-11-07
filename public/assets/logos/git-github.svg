@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Official Git Diamond (#F05032) + GitHub Octocat Badge -->
+  <!-- Git Rotated Square -->
+  <g transform="translate(4, 6)">
+    <rect x="18" y="4" width="24" height="24" rx="4" transform="rotate(45 18 4)" fill="#F05032"/>
+    <line x1="13" y1="11" x2="21" y2="19" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="18" y1="16" x2="18" y2="26" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="18" cy="16" r="2.4" fill="#FFFFFF"/>
+    <circle cx="22" cy="20" r="2.4" fill="#FFFFFF"/>
+    <circle cx="18" cy="26" r="2.4" fill="#FFFFFF"/>
+  </g>
+  <!-- GitHub Mark Circle -->
+  <circle cx="43" cy="41" r="15" fill="#181717" stroke="#E2E8F0" stroke-width="1.8"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M43 29.5 C36.6 29.5 31.5 34.6 31.5 41 C31.5 46.1 34.8 50.4 39.4 51.9 C40 52 40.2 51.6 40.2 51.3 V49.2 C37 49.9 36.3 47.7 36.3 47.7 C35.8 46.4 35 46 35 46 C34 45.3 35.1 45.3 35.1 45.3 C36.2 45.4 36.8 46.5 36.8 46.5 C37.8 48.2 39.5 47.7 40.2 47.4 C40.3 46.7 40.6 46.2 40.9 45.9 C38.3 45.6 35.6 44.6 35.6 40.2 C35.6 38.9 36.1 37.9 36.8 37.1 C36.7 36.8 36.3 35.6 36.9 34 C36.9 34 37.9 33.7 40.1 35.2 C41 34.9 42 34.8 43 34.8 C44 34.8 45 34.9 45.9 35.2 C48.1 33.7 49.1 34 49.1 34 C49.7 35.6 49.3 36.8 49.2 37.1 C49.9 37.9 50.4 38.9 50.4 40.2 C50.4 44.6 47.7 45.6 45.1 45.9 C45.5 46.3 45.9 47 45.9 48.1 V51.3 C45.9 51.6 46.1 52 46.7 51.9 C51.2 50.4 54.5 46.1 54.5 41 C54.5 34.6 49.4 29.5 43 29.5 Z" fill="#FFFFFF"/>
+</svg>

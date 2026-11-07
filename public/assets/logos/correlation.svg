@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="corr-grad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Left & Right Parameter Curly Braces -->
+  <path d="M20 14 C15 14 14 17 14 21 V27 C14 30 11 32 9 32 C11 32 14 34 14 37 V43 C14 47 15 50 20 50" stroke="url(#corr-grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 14 C49 14 50 17 50 21 V27 C50 30 53 32 55 32 C53 32 50 34 50 37 V43 C50 47 49 50 44 50" stroke="url(#corr-grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Dynamic Correlation Nodes -->
+  <circle cx="25" cy="25" r="4" fill="#00E5FF"/>
+  <circle cx="39" cy="39" r="4" fill="#FF4D9D"/>
+  <path d="M28 25 H37 C38.5 25 39 26 39 28 V33" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M36 39 H27 C25.5 39 25 38 25 36 V31" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
