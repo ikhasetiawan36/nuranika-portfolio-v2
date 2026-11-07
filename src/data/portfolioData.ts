@@ -376,6 +376,51 @@ export const projects: Project[] = [
       { label: "Organization", value: "Telkomsat" }
     ],
     featured: true
+  },
+  {
+    id: "timeflow-jmk",
+    title: "TIMEFLOW – Timesheet Management System",
+    category: "Internal Tools / Productivity Application",
+    subtitle: "Jamkrindo • Quality Assurance Engineer",
+    description: "TIMEFLOW is an internal timesheet management application designed to streamline employee work-hour tracking, daily activity recording, attendance management, and overtime reporting. The system simplifies timesheet administration through automated calculations, integrated workflows, and structured monthly data management.",
+    objectives: [
+      "Improve operational efficiency, minimize manual administrative work, and provide more organized and reliable employee timesheet management.",
+      "Validate accuracy of automated working hours and overtime calculations across regular workdays, weekends, holidays, leave, and sick days.",
+      "Ensure data integrity across daily activity management, monthly archives, and Excel import/export reporting workflows."
+    ],
+    responsibilities: [
+      "Automated Working Hours Calculation – Automatically calculates employee working hours based on timesheet entries.",
+      "Daily Activity Management – Records and manages daily work activities, allowing multiple activities within a day and supporting edits.",
+      "Attendance Management – Supports regular working days, weekends, holidays, leave, and sick days.",
+      "Automated Overtime Management – Generates overtime records based on timesheet data and synchronizes updates.",
+      "Monthly Archive – Organizes and maintains timesheet records by month.",
+      "Excel Import & Export – Supports importing and exporting timesheet data for reporting and administration."
+    ],
+    technologies: [
+      "Quality Assurance",
+      "Functional Testing",
+      "Timesheet & OT Automation",
+      "Excel Import / Export",
+      "Workflow Validation",
+      "Internal Tools"
+    ],
+    image: "/assets/images/timeflow-jmk.png",
+    imageAlt: "TIMEFLOW – Timesheet Management System at Jamkrindo",
+    galleryImages: [
+      "/assets/images/timeflow-jmk.png",
+      "/assets/images/timeflow-jmk-overtime.png"
+    ],
+    keyLearnings: [
+      "Validating automated working-hour and overtime calculation rules across diverse attendance states (Present, Leave, Sick, Holiday/Weekend).",
+      "Ensuring real-time synchronization between daily timesheet entries, multi-activity logs, and overtime recap forms.",
+      "Verifying structured monthly archive persistence and accurate Excel report generation for administrative compliance."
+    ],
+    metrics: [
+      { label: "Organization", value: "Jamkrindo" },
+      { label: "Role", value: "QA Engineer" },
+      { label: "Category", value: "Internal Tools" }
+    ],
+    featured: true
   }
 ];
 
