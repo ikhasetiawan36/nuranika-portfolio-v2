@@ -1,7 +1,7 @@
 export interface Project {
   id: string;
   title: string;
-  category: 'Performance Testing' | 'Automation Testing' | 'Manual Testing' | 'Academic Projects';
+  category: 'Performance Testing' | 'Automation Testing' | 'Manual Testing' | 'Academic Projects' | 'Internal Tools / Productivity Application';
   subtitle: string;
   description: string;
   objectives: string[];
