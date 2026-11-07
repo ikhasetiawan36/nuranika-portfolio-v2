@@ -405,7 +405,7 @@ export const projects: Project[] = [
       "Internal Tools"
     ],
     image: "/assets/images/timeflow-jmk.png",
-    imageAlt: "TIMEFLOW – Timesheet Management System at Jamkrindo",
+    imageAlt: "TIMEFLOW Dashboard and Monthly Attendance Overview",
     galleryImages: [
       "/assets/images/timeflow-jmk.png",
       "/assets/images/timeflow-jmk-overtime.png"
