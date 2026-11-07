@@ -381,28 +381,30 @@ export const projects: Project[] = [
     id: "timeflow-jmk",
     title: "TIMEFLOW – Timesheet Management System",
     category: "Internal Tools / Productivity Application",
-    subtitle: "Jamkrindo • Quality Assurance Engineer",
-    description: "TIMEFLOW is an internal timesheet management application designed to streamline employee work-hour tracking, daily activity recording, attendance management, and overtime reporting. The system simplifies timesheet administration through automated calculations, integrated workflows, and structured monthly data management.",
+    subtitle: "Jamkrindo • Application Developer & Quality Assurance Engineer",
+    description: "TIMEFLOW is an internal web-based Timesheet Management System designed and developed to streamline employee work-hour tracking, daily activity management, attendance monitoring, and overtime reporting. The application provides automated calculations, integrated workflows, and centralized monthly records to improve operational efficiency and reduce manual administrative tasks.",
     objectives: [
-      "Improve operational efficiency, minimize manual administrative work, and provide more organized and reliable employee timesheet management.",
-      "Validate accuracy of automated working hours and overtime calculations across regular workdays, weekends, holidays, leave, and sick days.",
-      "Ensure data integrity across daily activity management, monthly archives, and Excel import/export reporting workflows."
+      "Develop a centralized timesheet management application to improve operational efficiency and minimize manual administrative work.",
+      "Implement accurate automated working-hour and overtime calculations across regular workdays, weekends, holidays, leave, and sick days.",
+      "Ensure data consistency and reliability across daily activities, attendance records, monthly archives, and Excel import/export workflows."
     ],
     responsibilities: [
-      "Automated Working Hours Calculation – Automatically calculates employee working hours based on timesheet entries.",
-      "Daily Activity Management – Records and manages daily work activities, allowing multiple activities within a day and supporting edits.",
-      "Attendance Management – Supports regular working days, weekends, holidays, leave, and sick days.",
-      "Automated Overtime Management – Generates overtime records based on timesheet data and synchronizes updates.",
-      "Monthly Archive – Organizes and maintains timesheet records by month.",
-      "Excel Import & Export – Supports importing and exporting timesheet data for reporting and administration."
+      "Application Development – Designed and developed the TIMEFLOW web application, including its user interface, application structure, and functional modules.",
+      "Feature Implementation – Implemented daily timesheet management, attendance tracking, monthly archives, and overtime management workflows.",
+      "Business Logic & Automation – Developed automated working-hour calculations and overtime record generation based on timesheet data.",
+      "Data Management – Implemented structured monthly record management and Excel import/export functionality.",
+      "UI/UX Implementation – Designed and refined the application interface to provide an intuitive and efficient employee experience.",
+      "Quality Assurance – Performed functional validation, scenario testing, and debugging to ensure application reliability and consistency.",
+      "Continuous Improvement – Refined features and resolved functional issues throughout the development process."
     ],
     technologies: [
-      "Quality Assurance",
-      "Functional Testing",
-      "Timesheet & OT Automation",
-      "Excel Import / Export",
-      "Workflow Validation",
-      "Internal Tools"
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "SheetJS (XLSX)",
+      "IndexedDB & Local Storage",
+      "Quality Assurance"
     ],
     image: "/assets/images/timeflow-jmk.png",
     imageAlt: "TIMEFLOW Dashboard and Monthly Attendance Overview",
@@ -411,13 +413,13 @@ export const projects: Project[] = [
       "/assets/images/timeflow-jmk-overtime.png"
     ],
     keyLearnings: [
-      "Validating automated working-hour and overtime calculation rules across diverse attendance states (Present, Leave, Sick, Holiday/Weekend).",
-      "Ensuring real-time synchronization between daily timesheet entries, multi-activity logs, and overtime recap forms.",
-      "Verifying structured monthly archive persistence and accurate Excel report generation for administrative compliance."
+      "End-to-end product ownership from UI/UX design and React/TypeScript application architecture to functional QA validation.",
+      "Engineering accurate business logic for automated work-hour and overtime calculations across regular workdays, weekends, holidays, and leave states.",
+      "Implementing persistent client-side data management with IndexedDB alongside seamless SheetJS Excel import/export workflows for monthly reporting."
     ],
     metrics: [
       { label: "Organization", value: "Jamkrindo" },
-      { label: "Role", value: "QA Engineer" },
+      { label: "Role", value: "App Developer & QA" },
       { label: "Category", value: "Internal Tools" }
     ],
     featured: true
